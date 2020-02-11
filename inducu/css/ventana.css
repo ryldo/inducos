@@ -1,0 +1,43 @@
+.ventana
+{
+    position: absolute; top: 0; left: 0;
+    font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal;
+    border: #333333 3px solid; background-color: #FAFAFA; color: #000000; display:none;
+}
+.titulo_ventana
+{
+    font-weight: bold; text-align: left; color: #FFFFFF; padding: 5px; background-color:#006394
+}
+.titulo_cierre
+{
+padding: 10px; background-color: #F0F0F0; text-align: center; margin-top: 44px;
+}
+.divDerecha {float:right}
+.divIzquierda {float:left}
+.divAbajo { float : bottom; clear:both}
+
+.flotante
+{
+  border:1 solid;
+  float: left;
+  position: absolute;
+  background-color: white;
+  width : 900px;
+  height : 800px;
+  top : 0px;
+  z-index: 1050;
+  font-color:black;
+  display:none;
+}
+
+.xblack
+{
+  top: 0px;
+  left: 0px;
+  height:  100%;
+  position: absolute;
+  width:100%;
+  display:block;
+  background:#7f7f7f;
+  background:rgba(0,0,0,0.5);
+}
